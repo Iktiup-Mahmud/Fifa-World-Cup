@@ -6,6 +6,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    
 }
 
 
@@ -84,6 +85,25 @@ body{
     Width:93%;
     object-fit: cover;
 }
+
+.banner-image{
+    animation: banner-photo-animation 1s ease-in-out 0.1s infinite alternate ;
+    animation-play-state: running;
+    position: relative;
+}
+
+
+
+/* banner image movement  */
+@keyframes banner-photo-animation{
+    from{
+        left: 0;
+    }
+    to{
+        left: 30px;
+    }
+}
+
 
 /* ---------------------bannner design end here   ---------------------*/
 
