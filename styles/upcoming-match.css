@@ -1,0 +1,257 @@
+/* google font import */
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@600;700&family=Comfortaa:wght@600&family=Roboto:wght@900&family=Signika:wght@600&family=Trispace:wght@800&display=swap');
+
+/* font style appled in body  */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/*  --------------------- bannner design starts here  --------------------- */
+
+/* style for first-container */
+.first-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* style for first-portion */
+.banner{
+    width: 1321px;
+    height: 646px;
+    background: #161616;
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* text style */
+.texts{
+    margin: 51px 30px 0 60px;
+}
+
+/* text heading style in banner */
+.texts h1{
+    color: #FFFFFF;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+/* p tag style in banner  */
+.texts p{
+    color:#FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* button style  */
+.first-button{
+    width: 187px;
+    height: 57px;
+    color: aqua;
+    background-color: #DD0000;
+    border-radius: 5px;
+    margin-top: 30px;
+    border:none;
+}
+
+/* button hover style  */
+.first-button:hover{
+    background-color: #FFFFFF;
+    transition-duration: 0.8s;
+}
+.first-button a:hover{
+    color: #161616;
+    font-weight: 700;
+}
+
+/* button a tag style  */
+.first-button a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+
+/* banner image style  */
+.banner-image img{
+    Width:93%;
+    object-fit: cover;
+}
+
+/* ---------------------bannner design end here   ---------------------*/
+
+
+
+
+
+/* full middle portion design  */
+.middle-portion{
+    display: flex;
+    justify-content: center;
+    /* border: 3px solid black; */
+    margin-top: 130px;
+ 
+}
+
+/* blogs style  */
+.blogs{
+    width: 1321px;
+    height: 508px;
+    display: flex;
+    /* border: 3px solid black; */
+}
+
+
+/* left bar style  */
+.left-portion{
+    width: 312px;
+    height: 312px;
+    background: #161616;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+    
+}
+
+/* left bar button style  */
+.left-portion button{
+    display: block;
+    width: 252px;
+    height: 64px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* left bar button a tag style */
+.left-portion button a{
+    text-decoration: none;
+    color: black;
+}
+
+/* blog button style  */
+.left-upcoming-button{
+    color: #FFFFFF;
+    background-color: #DD0000;
+}
+
+/* right portion style  */
+.right-portion{
+    border-radius: 5px;
+    Width:312px;
+    Height:242px;
+    display: grid ;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 24px;
+    column-gap: 24px;
+}
+/* flag picture style */
+.flag-picture{
+    display: flex;
+    justify-content: center;
+}
+
+/* flag picture vs text bold */
+.flag-picture p{
+    font-weight: 700;
+}
+
+/* match title style  */
+.match-title{
+    text-align: center;
+}
+
+/* blog style */
+.blog{
+    padding: 53px 30px;
+    border: 1px solid rgba(216, 213, 213, 0.299);
+}
+
+
+
+/*  --------------------- footer design starts here  --------------------- */
+
+footer{
+    margin-top: 130px;
+    background-color: #161616;
+    text-align: center;
+}
+
+footer h1{
+    color: #FFFFFF;
+    padding-top: 130px;
+}
+
+hr{
+    width: 1320px;
+}
+
+.footer-about{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 304px 70px 304px;
+}
+.footer-logo{
+    color: #FFFFFF;
+    padding-bottom: 80px;
+    font-size: 36px;
+}
+
+
+.footer-logo i{ 
+    padding: 0 25px;
+}
+
+
+/*  --------------------- footer design ends here  --------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* right portion style  */
+/* .right-portion{
+    width: 312px;
+    height: 362px;
+    display: flex;
+    border-radius: 10px 10px 10px 10px;
+    /* border: 1px solid rgb(0, 0, 0); */
+    /* display: grid ;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 24px;
+    column-gap: 24px;
+    margin-left: 12px;
+} */
+
