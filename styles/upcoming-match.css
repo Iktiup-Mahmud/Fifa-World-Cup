@@ -257,7 +257,6 @@ hr{
         margin-left: 21px;
         margin-right: 21px;
         margin-top: 30px;
-        border: 3px solid yellow;
     }
     .banner{
         display: block;
@@ -328,7 +327,8 @@ hr{
     }
     
     footer{
-        Width:375px;
+        Width:100%
+        ;
         Height:412px;
     }
     footer h1{
